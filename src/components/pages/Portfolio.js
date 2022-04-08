@@ -3,15 +3,12 @@ import React from 'react';
 export default function Portfolio() {
     return (
         <div>
-            <h1>Portfolio Page</h1>
-            <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-            </p>
+            <a href="https://zsvoboda87.github.io/Bored-AF/">
+                <h3>Bored-AF</h3>
+            </a>
+            <a href="https://mysterious-eyrie-75602.herokuapp.com/" id="puppy-love">
+                <h3>Puppy-Love</h3>
+            </a>
         </div>
     );
 }

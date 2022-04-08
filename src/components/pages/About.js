@@ -2,15 +2,14 @@ import React from 'react';
 
 export default function About() {
     return (
-        <div>
-            <h1>About Page</h1>
+        <div >
+            <h1>About Me</h1>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-                Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-                mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-                lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-                imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-                in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+                During Zachary's 15 year career in live entertainment production, disaster stuck the world in the form of COVID-19.
+                Overnight the live entertainment industry shutdown and forced Zachary to consider a new direction.  After months
+                of reflection, he decided to start a new career.  He choose to take his lighting programming skills to a career in web development.
+                Technical skills include HTML, CSS, ES6, Node JS, React, MySql, MongoDb and more.  Zachary is constantly seeking new and more in depth
+                knowledge on his web development Journey.
             </p>
         </div>
     );

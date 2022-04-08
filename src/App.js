@@ -26,16 +26,19 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div >
       <header>
-        <h1>Zachary Svoboda</h1>
+        <div className='flex'>
+          <img src='assets/images/avatar.png' alt="Zachary's avitar"></img>
+          <h1>Zachary Svoboda</h1>
+        </div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      </header>
+      </header >
 
       <main>
         {renderPage()}
       </main>
-    </div>
+    </div >
   );
 }
 
