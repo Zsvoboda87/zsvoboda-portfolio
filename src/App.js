@@ -5,9 +5,11 @@ import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import About from './components/pages/About';
+import Footer from './components/Footer';
+import mainBackground from './herobg.JPG'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
@@ -38,6 +40,9 @@ function App() {
       <main>
         {renderPage()}
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div >
   );
 }
