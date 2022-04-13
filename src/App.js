@@ -31,7 +31,7 @@ function App() {
     <body >
       <header>
         <div className='flex'>
-          <img src='assets/images/avatar.png' alt="Zachary's avitar"></img>
+          <img src='assets/images/avatar.png' alt="Zachary's avatar"></img>
           <h1>Zachary Svoboda</h1>
         </div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
