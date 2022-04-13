@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zsvoboda-portfolio.git/static/css/main.2907dce2.css",
+    "main.js": "/zsvoboda-portfolio.git/static/js/main.10e000bc.js",
+    "static/js/787.ee32037d.chunk.js": "/zsvoboda-portfolio.git/static/js/787.ee32037d.chunk.js",
+    "static/media/herobg.JPG": "/zsvoboda-portfolio.git/static/media/herobg.ffee15024b51e8c8d1b0.JPG",
+    "index.html": "/zsvoboda-portfolio.git/index.html",
+    "main.2907dce2.css.map": "/zsvoboda-portfolio.git/static/css/main.2907dce2.css.map",
+    "main.10e000bc.js.map": "/zsvoboda-portfolio.git/static/js/main.10e000bc.js.map",
+    "787.ee32037d.chunk.js.map": "/zsvoboda-portfolio.git/static/js/787.ee32037d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2907dce2.css",
+    "static/js/main.10e000bc.js"
+  ]
+}
