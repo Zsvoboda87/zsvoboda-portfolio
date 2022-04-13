@@ -37,27 +37,29 @@ function Contact() {
     };
 
     return (
-        <section className='flex-column'>
-            <h1>Contact me</h1>
-            <form className='flex-column' id="contact-form" onSubmit={handleSubmit}>
+        <div className='flex-evenly'>
+            <section className='contact flex-column'>
+                < h1 > Contact me</h1 >
+                <form className=' flex-column' id="contact-form" onSubmit={handleSubmit}>
 
-                <label>Name:</label>
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <label>Name:</label>
+                    <input className='contact-input' type="text" name="Name" defaultValue={name} onBlur={handleChange} />
 
-                <label htmlFor="email">Email address:</label>
-                <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <label htmlFor="email">Email address:</label>
+                    <input className='contact-input' type="email" name="Email" defaultValue={email} onBlur={handleChange} />
 
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} />
+                    <label htmlFor="message">Message:</label>
+                    <textarea name="Message" defaultValue={message} onBlur={handleChange} />
 
-                {errorMessage && (
-                    <div>
-                        <div className="error-text">{errorMessage}</div>
-                    </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+                    {errorMessage && (
+                        <div>
+                            <div className="error-text">{errorMessage}</div>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </form>
+            </section >
+        </div>
     );
 }
 

@@ -16,7 +16,7 @@ export default function Portfolio() {
             <a className='nav-link vw43' href="https://watch.screencastify.com/v/2JGX16nUDU8GSKy7FYw2">
                 <h3>SQl Employee Tracker</h3>
                 <h5>MySql, Node JS, inquierer</h5>
-                <img className="vw43" src="" alt="Bored A F link"></img>
+                <img className="vw43" src="" alt="mySql Employee Tracker image"></img>
             </a>
         </div>
     );

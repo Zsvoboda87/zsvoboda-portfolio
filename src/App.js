@@ -28,7 +28,7 @@ function App() {
 
 
   return (
-    <div >
+    <body >
       <header>
         <div className='flex'>
           <img src='assets/images/avatar.png' alt="Zachary's avitar"></img>
@@ -43,7 +43,7 @@ function App() {
       <footer>
         <Footer></Footer>
       </footer>
-    </div >
+    </body >
   );
 }
 
