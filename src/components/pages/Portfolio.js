@@ -27,6 +27,18 @@ export default function Portfolio() {
                 <img className="vw43" src="assets/images/The-Nerd-Spot.png" alt="The nerd Spot Cover"></img>
                 <a className='nav-link' href='https://github.com/Zsvoboda87/The-Nerd-Spot'>Github</a>
             </a>
+            <a className='nav-link vw43' href="https://stark-badlands-84312.herokuapp.com/">
+                <h3>Pizza Hunt</h3>
+                <h5>MongoDb, Mongoose</h5>
+                <img className="vw43" src="assets/images/Pizza-Hunt.png" alt="Pizza-Hunt Cover"></img>
+                <a className='nav-link' href='https://github.com/Zsvoboda87/pizza-hunt'>Github</a>
+            </a>
+            <a className='nav-link vw43' href="https://zsvoboda87.github.io/Portfolio/">
+                <h3>Portfolio 1</h3>
+                <h5>HTML, CSS</h5>
+                <img className="vw43" src="assets/images/Portfolio1.png" alt="Zachary's First Porfolio"></img>
+                <a className='nav-link' href='https://github.com/Zsvoboda87/Portfolio'>Github</a>
+            </a>
 
         </div>
     );
