@@ -4,6 +4,8 @@
 ## Description 
 This Portfolio is an SPA built with React.  The page is designed by Zachary Svoboda and serves as a portfolio of the work he created.
 
+## ScreenShot
+Screen: ![Screenshot](/assets/images/PortfolioScreenShot.png)
 
 
 ## Table of Contents 
