@@ -3,6 +3,11 @@ import React from 'react';
 export default function Portfolio() {
     return (
         <div className='flex-evenly'>
+            <a className='nav-link vw43' href="https://powerful-basin-06230.herokuapp.com/">
+                <h3>Curb Alert <a className='nav-link' href='https://github.com/Zsvoboda87/Curb-Alert'>Github</a></h3>
+                <h5>MERN, Bootstrap, Cloudinary</h5>
+                <img className="vw43" src="assets/images/Curb-Alert" alt="Curb Alert Webpage cover"></img>
+            </a>
             <a className='nav-link vw43' href="https://mysterious-eyrie-75602.herokuapp.com/" id="puppy-love">
                 <h3>Puppy-Love <a className='nav-link' href='https://github.com/Zsvoboda87/Puppy-Love'>Github</a></h3>
                 <h5>Express JS, MySql2, Cloudinary, Sequelize</h5>
